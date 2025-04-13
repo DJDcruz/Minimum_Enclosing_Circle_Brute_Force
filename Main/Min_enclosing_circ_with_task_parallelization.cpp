@@ -172,7 +172,7 @@ std::vector<Point> readPointsFromFile(const std::string& filename) {
 }
 
 void performAnalysis(const std::string& file) {
-    std::string filename = "C:/Users/Pixel/OneDrive/Desktop/Min_enclosing_circ_with_task_parallelization/datasets/circle_" + file + ".txt"; //Replace with your path here
+    std::string filename = "datasets/circle_" + file + ".txt"; //Replace with your path here
     std::vector<Point> points = readPointsFromFile(filename);
 
     auto start = high_resolution_clock::now();
